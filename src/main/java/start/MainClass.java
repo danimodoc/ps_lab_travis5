@@ -6,9 +6,9 @@ import tables.Product;
 public class MainClass {
     public static void main(String[] args){
 
-        Product newP = new Product("Rocket Launcher");
-        newP.insert();
-        Product p2=newP.findById(2);
+        Product newP = new Product("Machine Learner");
+        //newP.insert();
+        Product p2=newP.findById(7);
 
         //Product p3= new Product("Robot Cop");
 
