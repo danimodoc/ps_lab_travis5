@@ -10,7 +10,7 @@ before_install:
 - mysql -e 'CREATE DATABASE IF NOT EXISTS employe_bugs;'
 
 services:
--mysql
+- mysql
 
 notifications:
    email:dani.modoc@yahoo.com
