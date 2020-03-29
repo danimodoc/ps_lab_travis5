@@ -2,11 +2,16 @@ language: java
 
 jdk:
 - oraclejdk8
-- openjdk11
+
+install: true
+script: ./mvn clean install
 
 before_install:
 - mysql -e 'CREATE DATABASE IF NOT EXISTS employe_bugs;'
 
 services:
 -mysql
+
+notifications:
+   email:dani.modoc@yahoo.com
 

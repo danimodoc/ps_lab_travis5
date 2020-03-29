@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0ccd7b6-76c6-4ab9-9a16-8603e31a4fff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tables/Bug_crudTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tables/ProductTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/start/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/start/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
