@@ -1,11 +1,13 @@
 language: java
 
 jdk:
-- openjdk13
+- openjdk14
 
 before_install:
 - mysql -e 'CREATE DATABASE IF NOT EXISTS employe_bugs;'
-
+install: true
+script:
+   - mvn install
 services:
 - mysql
 
