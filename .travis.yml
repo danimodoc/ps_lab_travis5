@@ -3,9 +3,6 @@ language: java
 jdk:
 - oraclejdk9
 
-sudo: false
-script: mvn clean verify
-
 before_install:
 - mysql -e 'CREATE DATABASE IF NOT EXISTS employe_bugs;'
 
