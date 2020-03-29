@@ -1,7 +1,7 @@
 language: java
 
 jdk:
-- openjdk11
+- openjdk12
 
 before_install:
 - mysql -e 'CREATE DATABASE IF NOT EXISTS employe_bugs;'
