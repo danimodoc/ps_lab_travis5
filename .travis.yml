@@ -1,11 +1,9 @@
----
-addons: ~
-apt: ~
+
 before_install:
    - "mysql -e 'CREATE DATABASE IF NOT EXISTS employe_bugs;'"
 install: true
 jdk:
-   - openjdk14
+   - oraclejdk9
 language: java
 packages:
    - oracle-java8-installer
